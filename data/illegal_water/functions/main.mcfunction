@@ -17,5 +17,5 @@ execute as @a if score @s iw_help matches 1.. run function illegal_water:utility
 execute as @a[nbt={Inventory:[{id:"minecraft:blaze_spawn_egg"}]}] at @s run function illegal_water:utility/give_illegal_water
 
 # Run water creation if player throws a Heatproof water onto a soul campfire
-execute as @e[type=item,nbt={Item:{id:"minecraft:dragon_breath",Count:1b,tag:{display:{Name:'[{"text":"Heatproof Water","italic":false,"color":"aqua"},{"text":"","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Not even the heat of the Nether could evaporate this...","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]']},Enchantments:[{}],HideFlags:1}}}] at @s if block ~ ~ ~ minecraft:soul_campfire run function illegal_water:water/create_water
+execute as @e[type=item,nbt={Item:{tag:{tag:iw_bottle}}}] at @s if block ~ ~ ~ minecraft:soul_campfire run function illegal_water:water/create_water
 

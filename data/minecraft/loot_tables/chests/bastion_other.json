@@ -327,7 +327,7 @@
                 "name": "minecraft:dragon_breath",
                 "functions": [{
                     "function": "set_nbt",
-                    "tag": "{display:{Name:'[{\"text\":\"Heatproof Water\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]',Lore:['[{\"text\":\"Not even the heat of the Nether could evaporate this...\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]']},Enchantments:[{}],HideFlags:1}"
+                    "tag": "{tag:\"iw_bottle\",display:{Name:'[{\"text\":\"Heatproof Water\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]',Lore:['[{\"text\":\"Not even the heat of the Nether could evaporate this...\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]']},Enchantments:[{}],HideFlags:1}"
                 }]
             }]
         }
