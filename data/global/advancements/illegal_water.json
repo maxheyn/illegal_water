@@ -1,0 +1,92 @@
+{
+	"display": {
+		"title": "Illegal Water                         ",
+		"description": [
+			"",
+			{
+				"text": "Craft ",
+				"color": "green"
+			},
+			{
+				"text": "Heatproof Water ",
+				"color": "aqua"
+			},
+			{
+				"text": "with a ",
+				"color": "green"
+			},
+			{
+				"text": "Dragon's Breath, ",
+				"color": "light_purple"
+			},
+			{
+				"text": "Water Bucket, ",
+				"color": "blue"
+			},
+			{
+				"text": "and ",
+				"color": "green"
+			},
+			{
+				"text": "Fire Charge",
+				"color": "red"
+			},
+			{
+				"text": " in a Crafting Table, or find some as",
+				"color": "green"
+			},
+			{
+				"text": " treasure in Bastions",
+				"color": "gold"
+			},
+			{
+				"text": ".\n\nToss the ",
+				"color": "green"
+			},
+			{
+				"text": "Heatproof Water",
+				"color": "aqua"
+			},
+			{
+				"text": " on a ",
+				"color": "green"
+			},
+			{
+				"text": "Soul Campfire",
+				"color": "dark_aqua"
+			},
+			{
+				"text": " to create a ",
+				"color": "green"
+			},
+			{
+				"text": "water source block",
+				"color": "blue"
+			},
+			{
+				"text": " in the",
+				"color": "green"
+			},
+			{
+				"text": " Nether",
+				"color": "dark_red"
+			},
+			{
+				"text": "!",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"item": "minecraft:dragon_breath",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:maxheyn",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

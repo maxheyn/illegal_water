@@ -6,10 +6,6 @@
 #                                                                 #
 # --------------------------------------------------------------- #
 
-# Initialization variables and function calls
-scoreboard objectives add iw_initialized dummy
-execute unless score $iw_init iw_initialized matches 1 run function illegal_water:scripts/init
-
 # Player help and utility
 execute as @a if score @s iw_help matches 1.. run function illegal_water:utility/help
 
